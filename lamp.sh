@@ -65,7 +65,7 @@ cat > /var/www/html/index.php << ENDOFFILE
                        <th>Autor</th>
                </tr>
 <?php
-$servername = "localhost";
+$servername = "database-1.cpw42um8wrs1.us-east-1.rds.amazonaws.com";
 $database = "articulos";
 $username = "dbadmin";
 $password = "dbadmin";
